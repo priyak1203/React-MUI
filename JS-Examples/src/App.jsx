@@ -1,8 +1,10 @@
+import MuiTypography from './components/MuiTypography';
+
 function App() {
   return (
-    <>
-      <h1>React MUI - JS Examples</h1>
-    </>
+    <div className="app">
+      <MuiTypography />
+    </div>
   );
 }
 
