@@ -1,4 +1,10 @@
-import { Button, IconButton, Stack, Typography } from '@mui/material';
+import {
+  Button,
+  ButtonGroup,
+  IconButton,
+  Stack,
+  Typography,
+} from '@mui/material';
 import SendIcon from '@mui/icons-material/Send';
 import LightModeIcon from '@mui/icons-material/LightMode';
 
@@ -150,7 +156,6 @@ const MuiButton = () => {
           </Button>
         </Stack>
       </Stack>
-
       {/* Button with ripple disabled */}
       <Stack spacing={2} direction="row">
         <Typography variant="h6" color="secondary">
@@ -163,7 +168,7 @@ const MuiButton = () => {
           </Button>
         </Stack>
       </Stack>
-
+      {/* Button with alert on click */}
       <Stack spacing={2} direction="row">
         <Typography variant="h6" color="secondary">
           Button with alert on click
@@ -172,6 +177,56 @@ const MuiButton = () => {
           <Button variant="contained" onClick={() => alert('clicked')}>
             Alert
           </Button>
+        </Stack>
+      </Stack>
+
+      {/* Buttons not as a group */}
+      <Stack direction="row" spacing={2}>
+        <Typography variant="h6" color="secondary">
+          Buttons not as a group
+        </Typography>
+        <Stack direction="row">
+          <Button variant="contained">left</Button>
+          <Button variant="contained">center</Button>
+          <Button variant="contained">right</Button>
+        </Stack>
+      </Stack>
+
+      <Stack spacing={2}>
+        <Typography variant="h6" color="secondary">
+          Buttons as a group
+        </Typography>
+        <Stack direction="row" spacing={2} display="block">
+          <ButtonGroup
+            variant="contained"
+            aria-label="alignment button primary"
+          >
+            <Button>left</Button>
+            <Button>center</Button>
+            <Button>right</Button>
+          </ButtonGroup>
+
+          <ButtonGroup
+            variant="outlined"
+            color="secondary"
+            aria-label="alignment button secondary"
+          >
+            <Button>left</Button>
+            <Button>center</Button>
+            <Button>right</Button>
+          </ButtonGroup>
+
+          <ButtonGroup
+            variant="contained"
+            color="warning"
+            orientation="vertical"
+            size="small"
+            aria-label="alignment button vertical"
+          >
+            <Button onClick={() => alert('Left Clicked')}>left</Button>
+            <Button>center</Button>
+            <Button>right</Button>
+          </ButtonGroup>
         </Stack>
       </Stack>
     </Stack>
