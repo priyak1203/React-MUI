@@ -179,7 +179,6 @@ const MuiButton = () => {
           </Button>
         </Stack>
       </Stack>
-
       {/* Buttons not as a group */}
       <Stack direction="row" spacing={2}>
         <Typography variant="h6" color="secondary">
@@ -192,6 +191,7 @@ const MuiButton = () => {
         </Stack>
       </Stack>
 
+      {/* Buttons as a group */}
       <Stack spacing={2}>
         <Typography variant="h6" color="secondary">
           Buttons as a group
