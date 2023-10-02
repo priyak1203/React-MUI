@@ -1,5 +1,6 @@
 import {
   MuiButton,
+  MuiCheckBox,
   MuiRadioButton,
   MuiSelect,
   MuiTextField,
@@ -15,7 +16,8 @@ function App() {
       {/* <MuiToggleButton /> */}
       {/* <MuiTextField /> */}
       {/* <MuiSelect /> */}
-      <MuiRadioButton />
+      {/* <MuiRadioButton /> */}
+      <MuiCheckBox />
     </div>
   );
 }
