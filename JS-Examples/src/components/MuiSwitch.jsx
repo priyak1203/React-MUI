@@ -3,6 +3,7 @@ import {
   FormControl,
   FormControlLabel,
   FormGroup,
+  FormHelperText,
   FormLabel,
   Stack,
   Switch,
@@ -22,6 +23,16 @@ const MuiSwitch = () => {
   console.log({ theme, schedule });
 
   const { mon, tue, wed, thu, fri } = schedule;
+
+  const WFH = [];
+  const WFO = [];
+  for (let day in schedule) {
+    if (schedule[day]) {
+      WFO.push(day);
+    } else {
+      WFH.push(day);
+    }
+  }
 
   const handleTheme = (e) => {
     setTheme(e.target.checked);
@@ -121,6 +132,16 @@ const MuiSwitch = () => {
               }
             />
           </FormGroup>
+          <FormHelperText>
+            {WFH.length
+              ? `On ${WFH.toString().toUpperCase()} Working from Home`
+              : ''}
+          </FormHelperText>
+          <FormHelperText>
+            {WFO.length
+              ? `On ${WFO.toString().toUpperCase()} Working from Office`
+              : ''}
+          </FormHelperText>
         </FormControl>
       </Box>
     </Stack>
