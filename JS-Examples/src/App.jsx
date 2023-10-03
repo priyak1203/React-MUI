@@ -3,6 +3,7 @@ import {
   MuiCheckBox,
   MuiRadioButton,
   MuiSelect,
+  MuiSwitch,
   MuiTextField,
   MuiToggleButton,
   MuiTypography,
@@ -17,7 +18,8 @@ function App() {
       {/* <MuiTextField /> */}
       {/* <MuiSelect /> */}
       {/* <MuiRadioButton /> */}
-      <MuiCheckBox />
+      {/* <MuiCheckBox /> */}
+      <MuiSwitch />
     </div>
   );
 }
