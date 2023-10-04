@@ -2,13 +2,14 @@ import {
   MuiButton,
   MuiCheckBox,
   MuiRadioButton,
+  MuiRating,
+  MuiRatingGroup,
   MuiSelect,
   MuiSwitch,
   MuiTextField,
   MuiToggleButton,
   MuiTypography,
 } from './components';
-import MuiRating from './components/MuiRating';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       {/* <MuiCheckBox /> */}
       {/* <MuiSwitch /> */}
       <MuiRating />
+      <MuiRatingGroup />
     </div>
   );
 }
