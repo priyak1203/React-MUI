@@ -1,4 +1,5 @@
 export { default as MuiAutoComplete } from './MuiAutoComplete';
+export { default as MuiBox } from './MuiBox';
 export { default as MuiButton } from './MuiButton';
 export { default as MuiCheckBox } from './MuiCheckBox';
 export { default as MuiRadioButton } from './MuiRadioButton';
