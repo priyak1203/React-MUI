@@ -7,6 +7,7 @@ import {
   MuiRating,
   MuiRatingGroup,
   MuiSelect,
+  MuiStack,
   MuiSwitch,
   MuiTextField,
   MuiToggleButton,
@@ -27,7 +28,8 @@ function App() {
       {/* <MuiRating />
       <MuiRatingGroup /> */}
       {/* <MuiAutoComplete /> */}
-      <MuiBox />
+      {/* <MuiBox /> */}
+      <MuiStack />
     </div>
   );
 }
