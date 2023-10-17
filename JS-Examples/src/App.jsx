@@ -3,6 +3,7 @@ import {
   MuiBox,
   MuiButton,
   MuiCheckBox,
+  MuiGrid,
   MuiRadioButton,
   MuiRating,
   MuiRatingGroup,
@@ -29,7 +30,8 @@ function App() {
       <MuiRatingGroup /> */}
       {/* <MuiAutoComplete /> */}
       {/* <MuiBox /> */}
-      <MuiStack />
+      {/* <MuiStack /> */}
+      <MuiGrid />
     </div>
   );
 }
