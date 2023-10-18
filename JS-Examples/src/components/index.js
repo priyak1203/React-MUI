@@ -3,6 +3,7 @@ export { default as MuiBox } from './MuiBox';
 export { default as MuiButton } from './MuiButton';
 export { default as MuiCheckBox } from './MuiCheckBox';
 export { default as MuiGrid } from './MuiGrid';
+export { default as MuiPaper } from './MuiPaper';
 export { default as MuiRadioButton } from './MuiRadioButton';
 export { default as MuiRating } from './MuiRating';
 export { default as MuiRatingGroup } from './MuiRatingGroup';
