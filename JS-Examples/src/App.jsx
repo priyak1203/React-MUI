@@ -2,6 +2,7 @@ import {
   MuiAutoComplete,
   MuiBox,
   MuiButton,
+  MuiCard,
   MuiCheckBox,
   MuiGrid,
   MuiPaper,
@@ -33,7 +34,8 @@ function App() {
       {/* <MuiBox /> */}
       {/* <MuiStack /> */}
       {/* <MuiGrid /> */}
-      <MuiPaper />
+      {/* <MuiPaper /> */}
+      <MuiCard />
     </div>
   );
 }
