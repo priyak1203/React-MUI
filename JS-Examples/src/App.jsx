@@ -1,4 +1,5 @@
 import {
+  MuiAccordion,
   MuiAutoComplete,
   MuiBox,
   MuiButton,
@@ -35,7 +36,8 @@ function App() {
       {/* <MuiStack /> */}
       {/* <MuiGrid /> */}
       {/* <MuiPaper /> */}
-      <MuiCard />
+      {/* <MuiCard /> */}
+      <MuiAccordion />
     </div>
   );
 }

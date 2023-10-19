@@ -1,3 +1,4 @@
+export { default as MuiAccordion } from './MuiAccordion';
 export { default as MuiAutoComplete } from './MuiAutoComplete';
 export { default as MuiBox } from './MuiBox';
 export { default as MuiButton } from './MuiButton';
