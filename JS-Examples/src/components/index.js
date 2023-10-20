@@ -5,6 +5,7 @@ export { default as MuiButton } from './MuiButton';
 export { default as MuiCard } from './MuiCard';
 export { default as MuiCheckBox } from './MuiCheckBox';
 export { default as MuiGrid } from './MuiGrid';
+export { default as MuiImageList } from './MuiImageList';
 export { default as MuiPaper } from './MuiPaper';
 export { default as MuiRadioButton } from './MuiRadioButton';
 export { default as MuiRating } from './MuiRating';
