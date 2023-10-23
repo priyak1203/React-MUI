@@ -1,4 +1,8 @@
-.app {
+/* .app {
   display: grid;
   padding: 4rem;
+} */
+
+body {
+  margin: 0;
 }
