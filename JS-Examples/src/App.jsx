@@ -7,6 +7,7 @@ import {
   MuiCheckBox,
   MuiGrid,
   MuiImageList,
+  MuiMenu,
   MuiNavbar,
   MuiPaper,
   MuiRadioButton,
@@ -41,7 +42,8 @@ function App() {
       {/* <MuiCard /> */}
       {/* <MuiAccordion /> */}
       {/* <MuiImageList /> */}
-      <MuiNavbar />
+      {/* <MuiNavbar /> */}
+      <MuiMenu />
     </div>
   );
 }
