@@ -2,6 +2,7 @@ import {
   MuiAccordion,
   MuiAutoComplete,
   MuiBox,
+  MuiBreadcrumbs,
   MuiButton,
   MuiCard,
   MuiCheckBox,
@@ -45,7 +46,8 @@ function App() {
       {/* <MuiImageList /> */}
       {/* <MuiNavbar /> */}
       {/* <MuiMenu /> */}
-      <MuiLink />
+      {/* <MuiLink /> */}
+      <MuiBreadcrumbs />
     </div>
   );
 }

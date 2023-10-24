@@ -1,6 +1,7 @@
 export { default as MuiAccordion } from './MuiAccordion';
 export { default as MuiAutoComplete } from './MuiAutoComplete';
 export { default as MuiBox } from './MuiBox';
+export { default as MuiBreadcrumbs } from './MuiBreadcrumbs';
 export { default as MuiButton } from './MuiButton';
 export { default as MuiCard } from './MuiCard';
 export { default as MuiCheckBox } from './MuiCheckBox';
