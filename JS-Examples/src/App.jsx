@@ -17,6 +17,7 @@ import {
   MuiRating,
   MuiRatingGroup,
   MuiSelect,
+  MuiSpeedDial,
   MuiStack,
   MuiSwitch,
   MuiTextField,
@@ -49,7 +50,8 @@ function App() {
       {/* <MuiMenu /> */}
       {/* <MuiLink /> */}
       {/* <MuiBreadcrumbs /> */}
-      <MuiDrawer />
+      {/* <MuiDrawer /> */}
+      <MuiSpeedDial />
     </div>
   );
 }
