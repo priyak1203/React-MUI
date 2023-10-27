@@ -2,6 +2,7 @@ import {
   MuiAccordion,
   MuiAutoComplete,
   MuiAvatar,
+  MuiBadge,
   MuiBottomNavigation,
   MuiBox,
   MuiBreadcrumbs,
@@ -55,7 +56,8 @@ function App() {
       {/* <MuiDrawer /> */}
       {/* <MuiSpeedDial /> */}
       {/* <MuiBottomNavigation /> */}
-      <MuiAvatar />
+      {/* <MuiAvatar /> */}
+      <MuiBadge />
     </div>
   );
 }
