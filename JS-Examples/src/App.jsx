@@ -13,6 +13,7 @@ import {
   MuiGrid,
   MuiImageList,
   MuiLink,
+  MuiLists,
   MuiMenu,
   MuiNavbar,
   MuiPaper,
@@ -57,7 +58,8 @@ function App() {
       {/* <MuiSpeedDial /> */}
       {/* <MuiBottomNavigation /> */}
       {/* <MuiAvatar /> */}
-      <MuiBadge />
+      {/* <MuiBadge /> */}
+      <MuiLists />
     </div>
   );
 }

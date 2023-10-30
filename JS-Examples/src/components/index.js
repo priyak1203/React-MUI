@@ -12,6 +12,7 @@ export { default as MuiDrawer } from './MuiDrawer';
 export { default as MuiGrid } from './MuiGrid';
 export { default as MuiImageList } from './MuiImageList';
 export { default as MuiLink } from './MuiLink';
+export { default as MuiLists } from './MuiLists';
 export { default as MuiMenu } from './MuiMenu';
 export { default as MuiNavbar } from './MuiNavbar';
 export { default as MuiPaper } from './MuiPaper';
