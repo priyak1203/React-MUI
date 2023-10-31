@@ -8,6 +8,7 @@ export { default as MuiBreadcrumbs } from './MuiBreadcrumbs';
 export { default as MuiButton } from './MuiButton';
 export { default as MuiCard } from './MuiCard';
 export { default as MuiCheckBox } from './MuiCheckBox';
+export { default as MuiChip } from './MuiChip';
 export { default as MuiDrawer } from './MuiDrawer';
 export { default as MuiGrid } from './MuiGrid';
 export { default as MuiImageList } from './MuiImageList';

@@ -9,6 +9,7 @@ import {
   MuiButton,
   MuiCard,
   MuiCheckBox,
+  MuiChip,
   MuiDrawer,
   MuiGrid,
   MuiImageList,
@@ -59,7 +60,8 @@ function App() {
       {/* <MuiBottomNavigation /> */}
       {/* <MuiAvatar /> */}
       {/* <MuiBadge /> */}
-      <MuiLists />
+      {/* <MuiLists /> */}
+      <MuiChip />
     </div>
   );
 }
