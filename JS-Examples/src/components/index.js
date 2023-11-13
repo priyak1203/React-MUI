@@ -24,6 +24,7 @@ export { default as MuiSelect } from './MuiSelect';
 export { default as MuiSpeedDial } from './MuiSpeedDial';
 export { default as MuiStack } from './MuiStack';
 export { default as MuiSwitch } from './MuiSwitch';
+export { default as MuiTable } from './MuiTable';
 export { default as MuiTextField } from './MuiTextField';
 export { default as MuiToggleButton } from './MuiToggleButton';
 export { default as MuiTooltip } from './MuiTooltip';

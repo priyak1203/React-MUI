@@ -25,6 +25,7 @@ import {
   MuiSpeedDial,
   MuiStack,
   MuiSwitch,
+  MuiTable,
   MuiTextField,
   MuiToggleButton,
   MuiTooltip,
@@ -63,7 +64,8 @@ function App() {
       {/* <MuiBadge /> */}
       {/* <MuiLists /> */}
       {/* <MuiChip /> */}
-      <MuiTooltip />
+      {/* <MuiTooltip /> */}
+      <MuiTable />
     </div>
   );
 }
