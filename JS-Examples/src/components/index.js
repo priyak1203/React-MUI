@@ -26,4 +26,5 @@ export { default as MuiStack } from './MuiStack';
 export { default as MuiSwitch } from './MuiSwitch';
 export { default as MuiTextField } from './MuiTextField';
 export { default as MuiToggleButton } from './MuiToggleButton';
+export { default as MuiTooltip } from './MuiTooltip';
 export { default as MuiTypography } from './MuiTypography';

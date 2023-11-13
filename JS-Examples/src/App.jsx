@@ -27,6 +27,7 @@ import {
   MuiSwitch,
   MuiTextField,
   MuiToggleButton,
+  MuiTooltip,
   MuiTypography,
 } from './components';
 
@@ -61,7 +62,8 @@ function App() {
       {/* <MuiAvatar /> */}
       {/* <MuiBadge /> */}
       {/* <MuiLists /> */}
-      <MuiChip />
+      {/* <MuiChip /> */}
+      <MuiTooltip />
     </div>
   );
 }
