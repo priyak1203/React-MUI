@@ -1,4 +1,5 @@
 export { default as MuiAccordion } from './MuiAccordion';
+export { default as MuiAlert } from './MuiAlert';
 export { default as MuiAutoComplete } from './MuiAutoComplete';
 export { default as MuiAvatar } from './MuiAvatar';
 export { default as MuiBadge } from './MuiBadge';

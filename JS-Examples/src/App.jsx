@@ -1,5 +1,6 @@
 import {
   MuiAccordion,
+  MuiAlert,
   MuiAutoComplete,
   MuiAvatar,
   MuiBadge,
@@ -65,7 +66,8 @@ function App() {
       {/* <MuiLists /> */}
       {/* <MuiChip /> */}
       {/* <MuiTooltip /> */}
-      <MuiTable />
+      {/* <MuiTable /> */}
+      <MuiAlert />
     </div>
   );
 }
