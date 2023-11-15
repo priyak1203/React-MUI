@@ -22,6 +22,7 @@ export { default as MuiRadioButton } from './MuiRadioButton';
 export { default as MuiRating } from './MuiRating';
 export { default as MuiRatingGroup } from './MuiRatingGroup';
 export { default as MuiSelect } from './MuiSelect';
+export { default as MuiSnackbar } from './MuiSnackbar';
 export { default as MuiSpeedDial } from './MuiSpeedDial';
 export { default as MuiStack } from './MuiStack';
 export { default as MuiSwitch } from './MuiSwitch';

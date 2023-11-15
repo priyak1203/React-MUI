@@ -6,7 +6,7 @@ const MuiAlert = () => {
     <Stack spacing={2}>
       {/* Basic Alerts */}
       <Stack spacing={2}>
-        <Typography variant="h6" color="primary" mb={2}>
+        <Typography variant="h6" color="primary">
           Basic Alerts
         </Typography>
         <Alert severity="error">This is an error alert</Alert>
@@ -17,7 +17,7 @@ const MuiAlert = () => {
 
       {/* Alert with Outlined Variant */}
       <Stack spacing={2}>
-        <Typography variant="h6" color="primary" mb={2}>
+        <Typography variant="h6" color="primary">
           Alert with Outlined Variant
         </Typography>
         <Alert severity="error" variant="outlined">
@@ -36,7 +36,7 @@ const MuiAlert = () => {
 
       {/* Alert with Filled Variant */}
       <Stack spacing={2}>
-        <Typography variant="h6" color="primary" mb={2}>
+        <Typography variant="h6" color="primary">
           Alert with Filled Variant
         </Typography>
         <Alert severity="error" variant="filled">
@@ -55,7 +55,7 @@ const MuiAlert = () => {
 
       {/*  Alert with Titles */}
       <Stack spacing={2}>
-        <Typography variant="h6" color="primary" mb={2}>
+        <Typography variant="h6" color="primary">
           Alert with Titles
         </Typography>
         <Alert severity="error" variant="outlined">
@@ -78,7 +78,7 @@ const MuiAlert = () => {
 
       {/*   Alert with different icons */}
       <Stack spacing={2}>
-        <Typography variant="h6" color="primary" mb={2}>
+        <Typography variant="h6" color="primary">
           Alert with different icons
         </Typography>
         <Alert
@@ -92,7 +92,7 @@ const MuiAlert = () => {
 
       {/*    Alert with close  */}
       <Stack spacing={2}>
-        <Typography variant="h6" color="primary" mb={2}>
+        <Typography variant="h6" color="primary">
           Alert with close
         </Typography>
         <Alert
@@ -106,7 +106,7 @@ const MuiAlert = () => {
 
       {/*   Alert with action */}
       <Stack spacing={2}>
-        <Typography variant="h6" color="primary" mb={2}>
+        <Typography variant="h6" color="primary">
           Alert with action
         </Typography>
         <Alert

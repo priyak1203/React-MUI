@@ -23,6 +23,7 @@ import {
   MuiRating,
   MuiRatingGroup,
   MuiSelect,
+  MuiSnackbar,
   MuiSpeedDial,
   MuiStack,
   MuiSwitch,
@@ -67,7 +68,8 @@ function App() {
       {/* <MuiChip /> */}
       {/* <MuiTooltip /> */}
       {/* <MuiTable /> */}
-      <MuiAlert />
+      {/* <MuiAlert /> */}
+      <MuiSnackbar />
     </div>
   );
 }
