@@ -11,6 +11,7 @@ import {
   MuiCard,
   MuiCheckBox,
   MuiChip,
+  MuiDialog,
   MuiDrawer,
   MuiGrid,
   MuiImageList,
@@ -69,7 +70,8 @@ function App() {
       {/* <MuiTooltip /> */}
       {/* <MuiTable /> */}
       {/* <MuiAlert /> */}
-      <MuiSnackbar />
+      {/* <MuiSnackbar /> */}
+      <MuiDialog />
     </div>
   );
 }
