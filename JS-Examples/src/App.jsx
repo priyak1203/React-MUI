@@ -20,6 +20,7 @@ import {
   MuiMenu,
   MuiNavbar,
   MuiPaper,
+  MuiProgress,
   MuiRadioButton,
   MuiRating,
   MuiRatingGroup,
@@ -71,7 +72,8 @@ function App() {
       {/* <MuiTable /> */}
       {/* <MuiAlert /> */}
       {/* <MuiSnackbar /> */}
-      <MuiDialog />
+      {/* <MuiDialog /> */}
+      <MuiProgress />
     </div>
   );
 }

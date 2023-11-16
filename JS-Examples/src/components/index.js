@@ -19,6 +19,7 @@ export { default as MuiLists } from './MuiLists';
 export { default as MuiMenu } from './MuiMenu';
 export { default as MuiNavbar } from './MuiNavbar';
 export { default as MuiPaper } from './MuiPaper';
+export { default as MuiProgress } from './MuiProgress';
 export { default as MuiRadioButton } from './MuiRadioButton';
 export { default as MuiRating } from './MuiRating';
 export { default as MuiRatingGroup } from './MuiRatingGroup';
