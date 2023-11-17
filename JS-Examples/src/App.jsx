@@ -25,6 +25,7 @@ import {
   MuiRating,
   MuiRatingGroup,
   MuiSelect,
+  MuiSkeleton,
   MuiSnackbar,
   MuiSpeedDial,
   MuiStack,
@@ -73,7 +74,8 @@ function App() {
       {/* <MuiAlert /> */}
       {/* <MuiSnackbar /> */}
       {/* <MuiDialog /> */}
-      <MuiProgress />
+      {/* <MuiProgress /> */}
+      <MuiSkeleton />
     </div>
   );
 }
