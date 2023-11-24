@@ -17,6 +17,7 @@ import {
   MuiImageList,
   MuiLink,
   MuiLists,
+  MuiLoading,
   MuiMenu,
   MuiNavbar,
   MuiPaper,
@@ -75,7 +76,8 @@ function App() {
       {/* <MuiSnackbar /> */}
       {/* <MuiDialog /> */}
       {/* <MuiProgress /> */}
-      <MuiSkeleton />
+      {/* <MuiSkeleton /> */}
+      <MuiLoading />
     </div>
   );
 }
