@@ -13,6 +13,7 @@ import {
   MuiCard,
   MuiCheckBox,
   MuiChip,
+  MuiDateRangePicker,
   MuiDateTimePicker,
   MuiDialog,
   MuiDrawer,
@@ -82,7 +83,8 @@ function App() {
         {/* <MuiProgress /> */}
         {/* <MuiSkeleton /> */}
         {/* <MuiLoading /> */}
-        <MuiDateTimePicker />
+        {/* <MuiDateTimePicker /> */}
+        <MuiDateRangePicker />
       </div>
     </LocalizationProvider>
   );
