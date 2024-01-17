@@ -36,6 +36,7 @@ import {
   MuiStack,
   MuiSwitch,
   MuiTable,
+  MuiTabs,
   MuiTextField,
   MuiToggleButton,
   MuiTooltip,
@@ -84,7 +85,8 @@ function App() {
         {/* <MuiSkeleton /> */}
         {/* <MuiLoading /> */}
         {/* <MuiDateTimePicker /> */}
-        <MuiDateRangePicker />
+        {/* <MuiDateRangePicker /> */}
+        <MuiTabs />
       </div>
     </LocalizationProvider>
   );
