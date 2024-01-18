@@ -38,6 +38,7 @@ import {
   MuiTable,
   MuiTabs,
   MuiTextField,
+  MuiTimeline,
   MuiToggleButton,
   MuiTooltip,
   MuiTypography,
@@ -86,7 +87,8 @@ function App() {
         {/* <MuiLoading /> */}
         {/* <MuiDateTimePicker /> */}
         {/* <MuiDateRangePicker /> */}
-        <MuiTabs />
+        {/* <MuiTabs /> */}
+        <MuiTimeline />
       </div>
     </LocalizationProvider>
   );

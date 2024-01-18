@@ -35,6 +35,7 @@ export { default as MuiSwitch } from './MuiSwitch';
 export { default as MuiTable } from './MuiTable';
 export { default as MuiTabs } from './MuiTabs';
 export { default as MuiTextField } from './MuiTextField';
+export { default as MuiTimeline } from './MuiTimeline';
 export { default as MuiToggleButton } from './MuiToggleButton';
 export { default as MuiTooltip } from './MuiTooltip';
 export { default as MuiTypography } from './MuiTypography';
