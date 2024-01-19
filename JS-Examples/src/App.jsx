@@ -22,6 +22,7 @@ import {
   MuiLink,
   MuiLists,
   MuiLoading,
+  MuiMasonry,
   MuiMenu,
   MuiNavbar,
   MuiPaper,
@@ -88,7 +89,8 @@ function App() {
         {/* <MuiDateTimePicker /> */}
         {/* <MuiDateRangePicker /> */}
         {/* <MuiTabs /> */}
-        <MuiTimeline />
+        {/* <MuiTimeline /> */}
+        <MuiMasonry />
       </div>
     </LocalizationProvider>
   );

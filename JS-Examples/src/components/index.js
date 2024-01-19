@@ -19,6 +19,7 @@ export { default as MuiImageList } from './MuiImageList';
 export { default as MuiLink } from './MuiLink';
 export { default as MuiLists } from './MuiLists';
 export { default as MuiLoading } from './MuiLoading';
+export { default as MuiMasonry } from './MuiMasonry';
 export { default as MuiMenu } from './MuiMenu';
 export { default as MuiNavbar } from './MuiNavbar';
 export { default as MuiPaper } from './MuiPaper';
