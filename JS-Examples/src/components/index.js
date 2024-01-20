@@ -27,6 +27,7 @@ export { default as MuiProgress } from './MuiProgress';
 export { default as MuiRadioButton } from './MuiRadioButton';
 export { default as MuiRating } from './MuiRating';
 export { default as MuiRatingGroup } from './MuiRatingGroup';
+export { default as MuiResponsiveness } from './MuiResponsiveness';
 export { default as MuiSelect } from './MuiSelect';
 export { default as MuiSkeleton } from './MuiSkeleton';
 export { default as MuiSnackbar } from './MuiSnackbar';

@@ -30,6 +30,7 @@ import {
   MuiRadioButton,
   MuiRating,
   MuiRatingGroup,
+  MuiResponsiveness,
   MuiSelect,
   MuiSkeleton,
   MuiSnackbar,
@@ -90,7 +91,8 @@ function App() {
         {/* <MuiDateRangePicker /> */}
         {/* <MuiTabs /> */}
         {/* <MuiTimeline /> */}
-        <MuiMasonry />
+        {/* <MuiMasonry /> */}
+        <MuiResponsiveness />
       </div>
     </LocalizationProvider>
   );
