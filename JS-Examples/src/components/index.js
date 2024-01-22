@@ -10,6 +10,7 @@ export { default as MuiButton } from './MuiButton';
 export { default as MuiCard } from './MuiCard';
 export { default as MuiCheckBox } from './MuiCheckBox';
 export { default as MuiChip } from './MuiChip';
+export { default as MuiCustomTheme } from './MuiCustomTheme';
 export { default as MuiDateRangePicker } from './MuiDateRangePicker';
 export { default as MuiDateTimePicker } from './MuiDateTimePicker';
 export { default as MuiDialog } from './MuiDialog';

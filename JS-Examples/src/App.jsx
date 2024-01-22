@@ -13,6 +13,7 @@ import {
   MuiCard,
   MuiCheckBox,
   MuiChip,
+  MuiCustomTheme,
   MuiDateRangePicker,
   MuiDateTimePicker,
   MuiDialog,
@@ -92,7 +93,8 @@ function App() {
         {/* <MuiTabs /> */}
         {/* <MuiTimeline /> */}
         {/* <MuiMasonry /> */}
-        <MuiResponsiveness />
+        {/* <MuiResponsiveness /> */}
+        <MuiCustomTheme />
       </div>
     </LocalizationProvider>
   );
